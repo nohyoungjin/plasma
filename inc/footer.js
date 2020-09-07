@@ -1,5 +1,5 @@
 str = ''
-str += '<div class="footer">'
+str += '<div id="footer">'
 str += '	<div class="inner">'
 str += '		<div class="logo ico">SK Plasma</div>'
 str += '		<p class="address">경기도 성남시 분당구 판교로 310 [13494] TEL) 02-2008-2008 <br>Copyright(c) SK Plasma. All Right Reserved.</p>'
