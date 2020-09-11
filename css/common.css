@@ -44,7 +44,7 @@ html, body {width:100%;height:100%}
 
 /* global */
 
-.blind {display:block;overflow:hidden;position:absolute;left:-9999px;width:1px;height:1px;font-size:0.1em;line-height:0.01em;text-indent:-9999px}
+.blind {overflow:hidden;position:absolute;width:1px;height:1px;margin:-1px;clip:rect(0 0 0 0)}
 
 /* icon */
 
@@ -139,10 +139,9 @@ html, body {width:100%;height:100%}
 
 #header .h_group {overflow:visible;position:fixed;top:0;left:0;z-index:999;width:100%;height:91px;background-color:transparent}
 #header .h_group:before {content:"";position:absolute;top:91px;left:0px;width:100%;height:1px}
-#header .h_group > div {max-width:1200px;height:91px;margin:0 auto}
-#header .h_group > div:after {display:block;clear:both;content:''}
-#header .h_group > div h1 {position:relative;float:left}
-#header .h_group > div h1 span.logo {display:block;position:absolute;top:21px;left:0;width:101px;height:46px;background:url(../img/common/logo.png) no-repeat;background-size:101px 46px}
+#header .h_group > div {position:relative;max-width:1200px;height:91px;margin:0 auto}
+#header .h_group > div h1 {position:absolute;top:21px;left:0;width:101px;height:46px}
+#header .h_group > div h1 a.logo {display:block;width:101px;height:46px;background:url(../img/common/logo.png) no-repeat;background-size:101px 46px}
 
 #header .h_group.menu_hover,
 #header .h_group.affix {border-bottom:1px solid #4b4c4f}
@@ -167,7 +166,7 @@ html, body {width:100%;height:100%}
 #header .h_group.affix #gnb > .box > ul > li > a:hover,
 #header .h_group.affix #gnb > .box > ul > li > a:focus {color:#cc3946 !important}
 
-#gnb {position:absolute;left:50%;margin-left:-380px;padding:25px 0 0}
+#gnb {position:absolute;left:50%;margin-left:-368px;padding:25px 0 0}
 #gnb .btn_menu {display:none;overflow:hidden;position:absolute;top:34px;right:20px;width:32px;height:20px;background:url(../img/common/btn_menu.png) no-repeat;background-size:32px 20px !important;text-indent:-999em}
 
 .h_group.privacy #gnb .btn_menu,
@@ -179,7 +178,7 @@ html, body {width:100%;height:100%}
 #gnb > .box > ul:after {display:block;clear:both;content:''}
 #gnb > .box > ul > li {position:relative;float:left}
 #gnb > .box > ul > li > a {display:block;position:relative;padding:7px 44px;font-size:18px;font-weight:300;color:#fff;cursor:pointer}
-#gnb > .box > ul > li > a:after {content:'';position:absolute;top:63px;left:50%;width:0;height:3px;background:#df012a;-ms-transform:translate(-50%,0);-webkit-transform:translate(-50%,0);transform:translate(-50%,0);transition:.4s ease-in-out}
+#gnb > .box > ul > li > a:after {content:'';position:absolute;top:64px;left:50%;width:0;height:2px;background:#df012a;-ms-transform:translate(-50%,0);-webkit-transform:translate(-50%,0);transform:translate(-50%,0);transition:.4s ease-in-out}
 #gnb > .box > ul > li.on > a:after {width:50%}
 #gnb > .box > ul > li.current > a,
 #gnb > .box > ul > li > a:hover,
@@ -196,7 +195,7 @@ html, body {width:100%;height:100%}
 
 /* util menu */
 
-#header .util_menu {position:absolute;top:38px;right:-209px;z-index:10}
+#header .util_menu {position:absolute;top:38px;right:0;z-index:10}
 #header .util_menu > a {font-size:14px;font-weight:300;color:#fff}
 #header .util_menu > a + a {position:relative;margin:0 0 0 20px}
 #header .util_menu > a + a:before {content:"";position:absolute;left:-11px;top:5px;width:1px;height:12px;background:#dbdbdb}
@@ -301,8 +300,7 @@ html, body {width:100%;height:100%}
 	#header .h_group:before {top:75px}
 	#header .h_group > div {max-width:100%;height:75px;padding:0 20px}
 
-	#header .h_group > div h1 {float:none;left:0}
-	#header .h_group > div h1 span.logo {top:14px}
+	#header .h_group > div h1 {top:14px;left:20px}
 
 	#gnb {position:static}
 	#gnb .btn_menu,
@@ -333,16 +331,15 @@ html, body {width:100%;height:100%}
 
 	/* util menu */
 
-	#header .util_menu {display:inline-block;position:absolute;top:35px;left:22px;width:100%}
+	#header .util_menu {display:inline-block;top:31px;right:68px}
 	#header .util_menu > a {display:none}
 
 	#header .list_global.mobile {display:inline-block}
 
-	#header .util_menu ul li {margin:0 8px}
-	#header .util_menu ul li a {font-size:16px;font-weight:400;color:#fff}
+	#header .util_menu ul li {margin:0 6px}
 
-	#header .h_group.menu_hover .util_menu > a,
-	#header .h_group.affix .util_menu > a {color:#fff}
+	#header .h_group.menu_hover .util_menu ul li a,
+	#header .h_group.affix .util_menu ul li a {color:#333}
 
 	.pop_global {display:none !important}
 	
