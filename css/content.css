@@ -149,14 +149,14 @@ select::-ms-expand {display:none}
 .breadcrumb {position:relative;z-index:100;width:100%;text-align:right}
 .breadcrumb > .inner {position:relative;max-width:1180px;width:100%;margin:0 auto}
 .breadcrumb .list_bread > li {display:inline-block;position:relative}
-.breadcrumb .list_bread > li + li {margin-left:10px;padding-left:15px;background:url(../img/common/ico_bread_arrow.png) no-repeat left center;-webkit-background-size:auto 100%;background-size:auto 100%}
+.breadcrumb .list_bread > li + li {margin-left:10px;padding-left:13px;background:url(../img/common/ico_bread_arrow.png) no-repeat left center;-webkit-background-size:auto 100%;background-size:auto 100%}
 .breadcrumb .d_home {text-align:center}
 .breadcrumb .d_home a {display:block;height:22px;line-height:22px}
 .breadcrumb .d_sub {height:22px;font-size:13px;color:#333;line-height:22px}
 
 /* */
 
-.ico._home {width:12px;height:11px;background-position:-146px -36px}
+.ico.ico_home {width:12px;height:11px;background-position:-146px -36px}
 
 /* section */
 
@@ -255,10 +255,10 @@ select::-ms-expand {display:none}
 
 /* */
 
-.ico._l_01 {width:140px;height:140px;background-position:-5px -269px}
-.ico._l_02 {width:140px;height:140px;background-position:-150px -269px}
-.ico._r_01 {width:140px;height:140px;background-position:-295px -269px}
-.ico._r_02 {width:140px;height:140px;background-position:-440px -269px}
+.ico.ico_l01 {width:140px;height:140px;background-position:-5px -269px}
+.ico.ico_l02 {width:140px;height:140px;background-position:-150px -269px}
+.ico.ico_r01 {width:140px;height:140px;background-position:-295px -269px}
+.ico.ico_r02 {width:140px;height:140px;background-position:-440px -269px}
 
 /* */
 
@@ -596,10 +596,10 @@ ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;co
 .cont_global .export.clearfix > .f_l .clearfix > .f_l {width:40%;text-align:center} 
 .cont_global .export.clearfix > .f_l .clearfix > .f_r {width:60%;margin:16px 0 0}
 
-.ico._busi_1 {width:124px;height:124px;background-position:-5px -604px}
-.ico._busi_2 {width:124px;height:124px;background-position:-134px -604px}
-.ico._busi_3 {width:124px;height:124px;background-position:-263px -604px}
-.ico._busi_4 {width:124px;height:124px;background-position:-392px -604px}
+.ico.ico_busi1 {width:124px;height:124px;background-position:-5px -604px}
+.ico.ico_busi2 {width:124px;height:124px;background-position:-134px -604px}
+.ico.ico_busi3 {width:124px;height:124px;background-position:-263px -604px}
+.ico.ico_busi4 {width:124px;height:124px;background-position:-392px -604px}
 
 .partner {margin:20px 0 0}
 .partner.clearfix > .f_r {text-align:right}
@@ -706,12 +706,12 @@ ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;co
 .tbl_list td {padding:16px 5px;border-bottom:1px solid #edeeef;font-size:15px;color:#727272;text-align:center;word-break:break-all}
 
 .tbl_list a:hover {text-decoration:underline}
-.tbl_list .ico._new {margin:-2px 4px 0 8px}
+.tbl_list .ico.ico_new {margin:-2px 4px 0 8px}
 
 /* */
 
-.ico._new {width:17px;height:18px;background-position:-200px -5px}
-.ico._file {width:16px;height:18px;background-position:-222px -5px}
+.ico.ico_new {width:17px;height:18px;background-position:-200px -5px}
+.ico.ico_file {width:16px;height:18px;background-position:-222px -5px}
 
 
 /* 제품소식 - 뷰 */
@@ -1289,7 +1289,7 @@ ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;co
 
 	/* 관계사 */
 
-	.organ_list > .list2 span:after {height:30px}
+	.organ_list > .list2 span:after {height:12px}
 
 	.organ_list > .list3:before {display:none}
 	.organ_list > .list3 .lst_box > li:before {display:none}
