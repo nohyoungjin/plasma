@@ -1,7 +1,7 @@
 str = ''
 str += '<div id="footer">'
 str += '	<div class="inner">'
-str += '		<div class="logo ico">SK Plasma</div>'
+str += '		<div class="logo ico"><span class="blind">SK Plasma</span></div>'
 str += '		<p class="address">경기도 성남시 분당구 판교로 310 [13494] TEL) 02-2008-2008 <br>Copyright(c) SK Plasma. All Right Reserved.</p>'
 str += '		<ul class="add">'
 str += '			<li><a href="FO-01.html">개인정보취급방침</a></li>'
