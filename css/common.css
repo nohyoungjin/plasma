@@ -159,7 +159,7 @@ html, body {width:100%;height:100%}
 #gnb > .box > ul:after {display:block;clear:both;content:''}
 #gnb > .box > ul > li {position:relative;float:left;width:154px;text-align:center}
 #gnb > .box > ul > li > a {display:block;position:relative;padding:7px 0;font-size:18px;font-weight:300;color:#fff;cursor:pointer}
-#gnb > .box > ul > li > a:after {content:'';position:absolute;top:64px;left:50%;width:0;height:2px;background:#222;-ms-transform:translate(-50%,0);-webkit-transform:translate(-50%,0);transform:translate(-50%,0);transition:.4s ease-in-out}
+#gnb > .box > ul > li > a:after {content:'';position:absolute;top:65px;left:50%;width:0;height:2px;background:#222;-ms-transform:translate(-50%,0);-webkit-transform:translate(-50%,0);transform:translate(-50%,0);transition:.4s ease-in-out}
 #gnb > .box > ul > li.on > a:after {width:50%}
 #gnb > .box > ul > li.current > a,
 #gnb > .box > ul > li > a:hover,
@@ -168,8 +168,6 @@ html, body {width:100%;height:100%}
 #gnb > .box > ul > li > .sub_menu {display:none;position:absolute;top:70px;left:0;width:160px;max-height:0;padding:22px 0}
 #gnb > .box > ul > li > .sub_menu > ul > li {margin:0 0 6px 0}
 #gnb > .box > ul > li > .sub_menu > ul > li > a {display:inline-block;position:relative;color:#444;font-size:15px;font-weight:300 !important;line-height:28px;letter-spacing:-0.1px}
-#gnb > .box > ul > li > .sub_menu > ul > li > a:hover,
-#gnb > .box > ul > li > .sub_menu > ul > li > a:focus {}
 
 #gnb > .box > ul > li > .sub_menu > ul > li > a:after {content:'';position:absolute;top:1.7rem;left:0;width:0;height:1px;background:#222;-webkit-transition:all 250ms ease-out;-moz-transition:all 250ms ease-out;-ms-transition:all 250ms ease-out;-o-transition:all 250ms ease-out;transition: all 250ms ease-out}
 #gnb > .box > ul > li > .sub_menu > ul > li > a:hover:after {width:100%}

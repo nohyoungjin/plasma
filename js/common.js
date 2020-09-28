@@ -156,7 +156,6 @@ $(function() {
 		$gnb.on('focusin', '> .box > ul > li', function() {
 
 			if ($body.data('device') != 'mobile') {
-				$(this).addClass('on');
 				$(this).parents('.h_group').addClass('menu_hover');
 				$(this).parents('.h_group').stop().animate({ 'height': '320px' }, 300);
 				$(this).parents('.h_group').css('background','#fff');
@@ -238,9 +237,6 @@ $(function() {
 			if ($('body').data('device') == 'mobile') {
 			
 				e.preventDefault ? e.preventDefault() : e.returnValue = false;
-
-				// $('#gnb > .box > ul > li > .sub_menu > ul').filter(':not(:animated)').slideUp('fast');
-				// $(this).parent().find('> .sub_menu > ul').filter(':not(:animated)').slideToggle();
 				
 				if ($(this).parent().hasClass('current')) {
 					$(this).parent().removeClass('current');
