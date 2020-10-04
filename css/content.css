@@ -161,7 +161,7 @@ select::-ms-expand {display:none}
 /* section */
 
 .sec_inner {overflow:hidden;position:relative;max-width:1000px;margin:0 auto;padding:80px 0}
-.sec_inner .h_section {display:block;position:relative;margin:0 0 25px;padding:0 0 25px;font-size:42px;font-weight:400;color:#444;text-align:center;line-height:40px}
+.sec_inner .h_section {display:block;position:relative;margin:0 0 25px;padding:0 0 25px;font-size:42px;font-weight:500;color:#444;text-align:center;line-height:40px;letter-spacing:-0.5px}
 .sec_inner .h_section:after {content:"";display:block;position:absolute;bottom:0;left:50%;width:28px;height:2px;margin-left:-14px;background-color:#e51937}
 .sec_inner .sub_txt {margin-bottom:50px;font-size:16px;font-weight:300;color:#333;text-align:center}
 
