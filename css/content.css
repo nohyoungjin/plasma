@@ -108,11 +108,11 @@ select::-ms-expand {display:none}
 
 .spot .spot_bg:before {content:"";position:absolute;left:0;top:90px;z-index:10000;width:100%;height:1px;margin-left:-1px}
 
-.spot ._bg01:before {background:#4b545b}
-.spot ._bg02:before {background:#919292}
-.spot ._bg03:before {background:#8d8f8f}
-.spot ._bg04:before {background:#8f8f8f}
-.spot ._bg05:before {background:#786356}
+.spot .bg01:before {background:#4b545b}
+.spot .bg02:before {background:#919292}
+.spot .bg03:before {background:#8d8f8f}
+.spot .bg04:before {background:#8f8f8f}
+.spot .bg05:before {background:#786356}
 
 .spot .inner {display:table;position:relative;top:-20px;width:100%;height:385px;text-align:center}
 .spot .inner .cell {display:table-cell;vertical-align:middle;color:#fff}
@@ -602,6 +602,7 @@ ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;co
 .ico.ico_busi4 {width:124px;height:124px;background-position:-392px -604px}
 
 .partner {margin:20px 0 0}
+.partner.clearfix > .f_l .btn_link {min-width:110px}
 .partner.clearfix > .f_r {text-align:right}
 
 /* */
@@ -748,7 +749,7 @@ ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;co
 .lst_preview li a:focus {color:#333;text-decoration:underline}
 
 .lst_preview li .tit {position:absolute;top:50%;left:0;width:100px;margin-top:-9.5px;font-weight:400;text-align:center}
-.lst_preview li .tit span {margin-right:15px;margin-top:-2px}
+.lst_preview li .tit i {margin-right:15px;margin-top:-2px}
 
 .lst_preview li .desc {padding:0 10px}
 .lst_preview li .date {position:absolute;top:15px;right:30px;text-align:right}
@@ -1791,11 +1792,11 @@ ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;co
 
 	/* 서브배너 */
 
-	.spot ._bg01 {background:url(../img/common/img_spot_1_m.jpg) repeat center center}
-	.spot ._bg02 {background:url(../img/common/img_spot_2_m.jpg) repeat center center}
-	.spot ._bg03 {background:url(../img/common/img_spot_3_m.jpg) repeat center center}
-	.spot ._bg04 {background:url(../img/common/img_spot_4_m.jpg) repeat center center}
-	.spot ._bg05 {background:url(../img/common/img_spot_5_m.jpg) repeat center center}
+	.spot .bg01 {background:url(../img/common/img_spot_1_m.jpg) repeat center center}
+	.spot .bg02 {background:url(../img/common/img_spot_2_m.jpg) repeat center center}
+	.spot .bg03 {background:url(../img/common/img_spot_3_m.jpg) repeat center center}
+	.spot .bg04 {background:url(../img/common/img_spot_4_m.jpg) repeat center center}
+	.spot .bg05 {background:url(../img/common/img_spot_5_m.jpg) repeat center center}
 
 	.spot .inner {top:0}
 	.spot .inner p {font-size:36px}
