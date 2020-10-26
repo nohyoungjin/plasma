@@ -100,11 +100,11 @@ select::-ms-expand {display:none}
 .spot {overflow:hidden;position:relative;width:100%;/* margin-top:91px */}
 .spot_bg {position:absolute;top:0;bottom:0;left:0;right:0;background:no-repeat center center;background-size:cover;-webkit-transform:translateZ(0) scale(1.1) rotate(0.1deg);transform:translateZ(0) scale(1.1) rotate(0.1deg);-webkit-transition:1800ms}
 
-.spot ._bg01 {background:url(../img/common/img_spot_1.jpg) repeat center center}
-.spot ._bg02 {background:url(../img/common/img_spot_2.jpg) repeat center center}
-.spot ._bg03 {background:url(../img/common/img_spot_3.jpg) repeat center center}
-.spot ._bg04 {background:url(../img/common/img_spot_4.jpg) repeat center center}
-.spot ._bg05 {background:url(../img/common/img_spot_5.jpg) repeat center center}
+.spot .bg01 {background:url(../img/common/img_spot_1.jpg) repeat center center}
+.spot .bg02 {background:url(../img/common/img_spot_2.jpg) repeat center center}
+.spot .bg03 {background:url(../img/common/img_spot_3.jpg) repeat center center}
+.spot .bg04 {background:url(../img/common/img_spot_4.jpg) repeat center center}
+.spot .bg05 {background:url(../img/common/img_spot_5.jpg) repeat center center}
 
 .spot .spot_bg:before {content:"";position:absolute;left:0;top:90px;z-index:10000;width:100%;height:1px;margin-left:-1px}
 
@@ -755,8 +755,8 @@ ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;co
 
 /* */
 
-.ico._up {width:15px;height:8px;background-position:-830px -18px}
-.ico._down {width:15px;height:8px;background-position:-830px -38px}
+.ico.ico_up {width:15px;height:8px;background-position:-830px -18px}
+.ico.ico_down {width:15px;height:8px;background-position:-830px -38px}
 
 
 /* SKP 사람들 */
@@ -962,25 +962,25 @@ ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;co
 
 .cont_benefit .ico_recruit {display:inline-block;width:130px;height:130px;background:url(../img/common/sp_recruit.png) 0 0}
 
-.ico_recruit._c_1 {background-position:-0 -620px}
-.ico_recruit._c_2 {background-position:-135px -620px}
-.ico_recruit._c_3 {background-position:-270px -620px}
-.ico_recruit._c_4 {background-position:-405px -620px}
-.ico_recruit._c_5 {background-position:-540px -620px}
-.ico_recruit._c_6 {background-position:-675px -620px}
+.ico_recruit.i_c_1 {background-position:-0 -620px}
+.ico_recruit.i_c_2 {background-position:-135px -620px}
+.ico_recruit.i_c_3 {background-position:-270px -620px}
+.ico_recruit.i_c_4 {background-position:-405px -620px}
+.ico_recruit.i_c_5 {background-position:-540px -620px}
+.ico_recruit.i_c_6 {background-position:-675px -620px}
 
-.ico_recruit._b_1 {background-position:0 -340px}
-.ico_recruit._b_2 {background-position:-135px -340px}
-.ico_recruit._b_3 {background-position:-270px -340px}
-.ico_recruit._b_4 {background-position:-405px -340px}
-.ico_recruit._b_5 {background-position:-540px -340px}
-.ico_recruit._b_6 {background-position:-675px -340px}
-.ico_recruit._b_7 {background-position:-0 -480px}
-.ico_recruit._b_8 {background-position:-135px -480px}
-.ico_recruit._b_9 {background-position:-270px -480px}
-.ico_recruit._b_10 {background-position:-405px -480px}
-.ico_recruit._b_11 {background-position:-540px -480px}
-.ico_recruit._b_12 {background-position:-676px -480px}
+.ico_recruit.i_b_1 {background-position:0 -340px}
+.ico_recruit.i_b_2 {background-position:-135px -340px}
+.ico_recruit.i_b_3 {background-position:-270px -340px}
+.ico_recruit.i_b_4 {background-position:-405px -340px}
+.ico_recruit.i_b_5 {background-position:-540px -340px}
+.ico_recruit.i_b_6 {background-position:-675px -340px}
+.ico_recruit.i_b_7 {background-position:-0 -480px}
+.ico_recruit.i_b_8 {background-position:-135px -480px}
+.ico_recruit.i_b_9 {background-position:-270px -480px}
+.ico_recruit.i_b_10 {background-position:-405px -480px}
+.ico_recruit.i_b_11 {background-position:-540px -480px}
+.ico_recruit.i_b_12 {background-position:-676px -480px}
 
 
 /* 직무소개 */
@@ -1023,15 +1023,15 @@ ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;co
 
 .ico_recruit {display:inline-block;width:139px;height:160px;background:url(../img/common/sp_recruit.png) 0 0}
 
-.ico_recruit._r_1 {background-position:0 0}
-.ico_recruit._r_2 {background-position:-144px 0}
-.ico_recruit._r_3 {background-position:-288px 0}
-.ico_recruit._r_4 {background-position:-432px 0}
-.ico_recruit._r_5 {background-position:-576px 0}
-.ico_recruit._r_6 {background-position:-720px 0}
+.ico_recruit.i_r_1 {background-position:0 0}
+.ico_recruit.i_r_2 {background-position:-144px 0}
+.ico_recruit.i_r_3 {background-position:-288px 0}
+.ico_recruit.i_r_4 {background-position:-432px 0}
+.ico_recruit._ir_5 {background-position:-576px 0}
+.ico_recruit.i_r_6 {background-position:-720px 0}
 
-.ico_recruit._r_7 {background-position:0 -170px}
-.ico_recruit._r_8 {background-position:-144px -170px}
+.ico_recruit.i_r_7 {background-position:0 -170px}
+.ico_recruit.i_r_8 {background-position:-144px -170px}
 
 /* */
 
@@ -1181,8 +1181,8 @@ ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;co
 
 /* */
 
-.ico._customer1 {width:119px;height:119px;background-position:-580px -107px}
-.ico._customer2 {width:119px;height:119px;background-position:-704px -107px}
+.ico.ico_customer1 {width:119px;height:119px;background-position:-580px -107px}
+.ico.ico_customer2 {width:119px;height:119px;background-position:-704px -107px}
 
 
 /* 개인정보처리방침 */
