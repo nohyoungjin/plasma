@@ -100,11 +100,11 @@ select::-ms-expand {display:none}
 .spot {overflow:hidden;position:relative;width:100%;/* margin-top:91px */}
 .spot_bg {position:absolute;top:0;bottom:0;left:0;right:0;background:no-repeat center center;background-size:cover;-webkit-transform:translateZ(0) scale(1.1) rotate(0.1deg);transform:translateZ(0) scale(1.1) rotate(0.1deg);-webkit-transition:1800ms}
 
-.spot .bg01 {background:url(../img/common/img_spot_1.jpg) repeat center center}
-.spot .bg02 {background:url(../img/common/img_spot_2.jpg) repeat center center}
-.spot .bg03 {background:url(../img/common/img_spot_3.jpg) repeat center center}
-.spot .bg04 {background:url(../img/common/img_spot_4.jpg) repeat center center}
-.spot .bg05 {background:url(../img/common/img_spot_5.jpg) repeat center center}
+.spot .bg01 {background:url(../img/common/img_spot_1.jpg) no-repeat center / cover}
+.spot .bg02 {background:url(../img/common/img_spot_2.jpg) no-repeat center / cover}
+.spot .bg03 {background:url(../img/common/img_spot_3.jpg) no-repeat center / cover}
+.spot .bg04 {background:url(../img/common/img_spot_4.jpg) no-repeat center / cover}
+.spot .bg05 {background:url(../img/common/img_spot_5.jpg) no-repeat center / cover}
 
 .spot .spot_bg:before {content:"";position:absolute;left:0;top:90px;z-index:10000;width:100%;height:1px;margin-left:-1px}
 

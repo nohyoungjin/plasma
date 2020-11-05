@@ -118,7 +118,7 @@ SUMMARY :
 
 /* p3 */
 
-.plasma.p3 {background:url(../img/main/p3_bg.jpg) repeat-x center center}
+.plasma.p3 {background:url(../img/main/p3_bg.jpg) no-repeat center / cover}
 .plasma.p3 .h_section {color:#fff}
 .plasma.p3 .tit {color:#fff}
 
@@ -137,7 +137,7 @@ SUMMARY :
 
 /* p4 */
 
-.plasma.p4 {margin:-5px 0 0;background:url(../img/main/p4_bg.jpg) repeat-x center center}
+.plasma.p4 {margin:-5px 0 0;background:url(../img/main/p4_bg.jpg) no-repeat center / cover}
 
 .plasma.p4 .lst_person {margin:120px 0 0;font-size:24px}
 .plasma.p4 .lst_person:after {display:block;clear:both;content:''}
@@ -161,7 +161,7 @@ SUMMARY :
 
 /* p5 */
 
-.plasma.p5 {margin:-5px 0 0;background:url(../img/main/p5_bg.jpg) repeat-x center center}
+.plasma.p5 {margin:-5px 0 0;background:url(../img/main/p5_bg.jpg) no-repeat center / cover}
 .plasma.p5 .h_section {color:#fff}
 .plasma.p5 .tit {color:#fff}
 
