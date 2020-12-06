@@ -531,7 +531,7 @@ $(function() {
 
 	function nav_tab() {
 
-		$('.nav_tab li').on('click', function() {
+		$('.lst_nav li').on('click', function() {
 
 			$('.unify').hide();
 			$('.skms' + $(this).index()).show();
@@ -539,7 +539,7 @@ $(function() {
 			$(this).siblings('.on').removeClass('on');
 			$(this).addClass('on');
 
-			$('.nav_tab li a').attr('title', '');
+			$('.lst_nav li a').attr('title', '');
 			$(this).children().attr('title', '현재 페이지');
 
 		});

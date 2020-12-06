@@ -148,10 +148,22 @@ body {font-family:'Noto Sans KR','맑은 고딕','Malgun Gothic','돋움','Dotum
 #header .h_group.affix #gnb > .box > ul > li > a:focus {color:#cc3946 !important}
 
 #gnb {position:absolute;left:50%;margin-left:-370px;padding:25px 0 0}
-#gnb .btn_menu {display:none;overflow:hidden;position:absolute;top:34px;right:20px;width:32px;height:20px;background:url(../img/common/btn_menu.png) no-repeat;background-size:32px 20px !important;text-indent:-999em}
 
-.h_group.privacy #gnb .btn_menu,
-.h_group.affix #gnb .btn_menu {background:url(../img/common/btn_menu_on.png) no-repeat}
+#gnb .btn_menu {display:none;overflow:hidden;position:absolute;top:34px;right:20px;border:0}
+#gnb .btn_menu > span {display:block;position:relative;width:20px;height:16px;margin:0 auto;text-align:center}
+#gnb .btn_menu > span > i,
+#gnb .btn_menu > span:before,
+#gnb .btn_menu > span:after {display:block;overflow:hidden;position:absolute;left:0;width:100%;height:1px;background-color:#fff;text-indent:-9999em}
+#gnb .btn_menu > span > i {top:0}
+#gnb .btn_menu > span:before {content:'';top:50%;margin-top:-0.5px}
+#gnb .btn_menu > span:after {content:'';bottom:0}
+
+.h_group.affix #gnb .btn_menu > span > i,
+.h_group.affix #gnb .btn_menu > span:before,
+.h_group.affix #gnb .btn_menu > span:after,
+.h_group.privacy #gnb .btn_menu > span > i,
+.h_group.privacy #gnb .btn_menu > span:before,
+.h_group.privacy #gnb .btn_menu > span:after {background-color:#000}
 
 #gnb .btn_close {display:none;overflow:hidden;position:absolute;top:39px;right:23px;z-index:1000;width:26px;height:26px;background:url(../img/common/btn_close.png) no-repeat;background-size:26px 26px !important;text-indent:-999em}
 
