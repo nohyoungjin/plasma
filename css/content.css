@@ -21,7 +21,7 @@ SUMMARY :
 .bn {display:inline-block;overflow:hidden;margin:0;vertical-align:top}
 .bn * {display:block;width:100%;height:100%;text-decoration:none !important;cursor:pointer}
 .bn_big {width:160px;height:50px;font-size:18px;font-weight:normal;text-align:center}
-.bn_big * {height:50px;font-size:18px;font-weight:300;text-align:center;line-height:50px}
+.bn_big * {height:50px;font-size:18px;font-weight:300;text-align:center;line-height:46px}
 
 .bn_bk * {background-color:#555;color:#fff}
 
