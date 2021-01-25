@@ -526,8 +526,8 @@ ul.lst_product li:nth-child(11) {width:32.33%;margin:0 1.5% 4%}
 ul.lst_product li a {display:block;height:100%;padding:0 0 5px 0;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s}
 
 ul.lst_product li .thumb span {display:block;position:relative;width:293px;height:180px;margin:0 auto;padding-bottom:0;border:1px solid #e8e8e8;background-position:center;background-repeat:no-repeat;background-size:cover}
-ul.lst_product li .cont {position:relative;padding:14px 10px 0}
-ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;color:#666;text-align:center;line-height:22px;letter-spacing:-0.8px;white-space:nowrap;text-overflow:ellipsis}
+ul.lst_product li .cont {position:relative;padding:14px 22px 0}
+ul.lst_product li .cont p.txt {overflow:hidden;font-size:16px;font-weight:300;color:#666;text-align:center;line-height:22px;letter-spacing:-0.8px;white-space:nowrap;text-overflow:ellipsis}
 
 
 /* 제품정보 - 뷰 */
@@ -748,7 +748,7 @@ ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;co
 .skp_wrap {position:relative}
 .skp_step {position:relative;height:900px;margin:-77px 0 0}
 
-.skp_step {background:url(../img/recruit/img_talented_10.jpg) no-repeat center center}
+.skp_step {background:url(../img/recruit/img_talented_10.jpg) no-repeat center / cover}
 .skp_step .box {padding:120px 0 0}
 .skp_step .tit {display:block;position:relative;width:730px;margin:0 auto;padding:5px 0;background:#2c4130;font-size:24px;font-weight:100;color:#fff;text-align:center;letter-spacing:-0.9px}
 
@@ -873,13 +873,13 @@ ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;co
 
 .onday_step {position:relative;height:900px;margin:-77px 0 0}
 
-.onday_step01_bg {background:url(../img/recruit/img_step_1.jpg) no-repeat center center}
-.onday_step02_bg {background:url(../img/recruit/img_step_2.jpg) no-repeat center center}
-.onday_step03_bg {background:url(../img/recruit/img_step_3.jpg) no-repeat center center}
-.onday_step04_bg {background:url(../img/recruit/img_step_4.jpg) no-repeat center center}
-.onday_step05_bg {background:url(../img/recruit/img_step_5.jpg) no-repeat center center} 
-.onday_step06_bg {background:url(../img/recruit/img_step_6.jpg) no-repeat center center}
-.onday_step07_bg {background:url(../img/recruit/img_step_7.jpg) no-repeat center center}
+.onday_step01_bg {background:url(../img/recruit/img_step_1.jpg) no-repeat center / cover}
+.onday_step02_bg {background:url(../img/recruit/img_step_2.jpg) no-repeat center / cover}
+.onday_step03_bg {background:url(../img/recruit/img_step_3.jpg) no-repeat center / cover}
+.onday_step04_bg {background:url(../img/recruit/img_step_4.jpg) no-repeat center / cover}
+.onday_step05_bg {background:url(../img/recruit/img_step_5.jpg) no-repeat center / cover} 
+.onday_step06_bg {background:url(../img/recruit/img_step_6.jpg) no-repeat center / cover}
+.onday_step07_bg {background:url(../img/recruit/img_step_7.jpg) no-repeat center / cover}
 
 .onday_box {display:table;width:100%;height:900px}
 .onday_inner {display:table-cell;position:relative;margin:0 auto;text-align:center;vertical-align:middle}
@@ -1019,7 +1019,7 @@ ul.lst_product li .cont p.txt {overflow:hidden;font-size:17px;font-weight:300;co
 
 /* */
 
-.cont_recruit .happy {width:100%;height:706px;margin:20px 0 0;background:url(../img/recruit/img_recruit_1.jpg) no-repeat center center}
+.cont_recruit .happy {width:100%;height:706px;margin:20px 0 0;background:url(../img/recruit/img_recruit_1.jpg) no-repeat center / cover}
 .cont_recruit .happy .info {display:table;width:100%;height:706px}
 .cont_recruit .happy .info .inner {display:table-cell;text-align:center;vertical-align:middle}
 

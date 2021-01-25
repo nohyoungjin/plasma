@@ -190,7 +190,7 @@ body {font-family:'Noto Sans KR','맑은 고딕','Malgun Gothic','돋움','Dotum
 #header .util_menu > a + a:before {content:"";position:absolute;left:-11px;top:5px;width:1px;height:12px;background:#dbdbdb}
 /* #header .util_menu > a + a:after {content:"";position:absolute;left:-12px;top:-7px;width:1px;height:12px;width:21px;height:21px;font-size:0;background-image:url(../img/common/sp_common.png);background-position:-120px -5px} */
 
-#header .list_global.mobile {display:none}
+#header .lst_global.mobile {display:none}
 
 #header .util_menu ul li {display:inline-block;margin:0 10px 0}
 #header .util_menu ul li a {font-size:14px;font-weight:300;color:#fff}
@@ -203,8 +203,8 @@ body {font-family:'Noto Sans KR','맑은 고딕','Malgun Gothic','돋움','Dotum
 .pop_global .ico_arrow {display:block;width:100%;height:29px;background: url(../img/common/ico_global_arrow.png) center center no-repeat}
 .pop_global .ly_inner {padding:10px 0;background:#fff}
 
-.pop_global .list_global a {color:#51555d}
-.pop_global .list_global .on a {color:#dc2141;text-decoration:underline}
+.pop_global .lst_global a {color:#51555d}
+.pop_global .lst_global .on a {color:#dc2141;text-decoration:underline}
 .pop_global .pop_close {display:inline-block;position:absolute;top:29px;right:-22px;width:22px;height:22px;background:url(../img/common/btn_x.png) no-repeat 0 0;text-indent:-99999px}
 
 /* */
@@ -324,7 +324,7 @@ body {font-family:'Noto Sans KR','맑은 고딕','Malgun Gothic','돋움','Dotum
 	#header .util_menu {display:inline-block;top:31px;right:68px}
 	#header .util_menu > a {display:none}
 
-	#header .list_global.mobile {display:inline-block}
+	#header .lst_global.mobile {display:inline-block}
 
 	#header .util_menu ul li {margin:0 6px}
 
