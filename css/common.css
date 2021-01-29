@@ -263,8 +263,13 @@ body {font-family:'Noto Sans KR','맑은 고딕','Malgun Gothic','돋움','Dotum
 
 .article_content {padding:30px 0 0;border-top:1px solid #ccc;font-size:14px;font-weight:300;text-align:left;color:#666}
 
-.mfp-content .mfp-close {top:20px;right:20px;width:23px;height:23px;background:url(../img/common/popup_close.png) no-repeat;background-size:23px;-webkit-transition:-webkit-transform 1s cubic-bezier(.075,.82,.165,1);transition:-webkit-transform 1s cubic-bezier(.075,.82,.165,1);transition:transform 1s cubic-bezier(.075,.82,.165,1);transition:transform 1s cubic-bezier(.075,.82,.165,1), -webkit-transform 1s cubic-bezier(.075,.82,.165,1)}
+.mfp-content .mfp-close {top:20px;right:20px;width:23px;height:23px;-webkit-transition:-webkit-transform 1s cubic-bezier(.075,.82,.165,1);transition:-webkit-transform 1s cubic-bezier(.075,.82,.165,1);transition:transform 1s cubic-bezier(.075,.82,.165,1);transition:transform 1s cubic-bezier(.075,.82,.165,1), -webkit-transform 1s cubic-bezier(.075,.82,.165,1)}
 .mfp-content .mfp-close:hover{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}
+
+.mfp-content .mfp-close:before,
+.mfp-content .mfp-close:after {content:'';display:block;position:absolute;top:50%;width:23px;height:1px;background-color:#333;transition:.4s ease-in-out;-webkit-transition:.4s ease-in-out}
+.mfp-content .mfp-close:before {transform:rotate(45deg);-webkit-transform:rotate(45deg)}
+.mfp-content .mfp-close:after {transform:rotate(-45deg);-webkit-transform:rotate(-45deg)}
 
 /* scroll top */
 
